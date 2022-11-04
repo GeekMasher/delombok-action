@@ -2,6 +2,10 @@
 
 set -e
 
+if [[ -z "$GITHUB_WORKSPACE" ]]; then
+  GITHUB_WORKSPACE="."
+fi
+
 # delombok if necessary
 if git grep -q "^import lombok" '*.java'; then
   echo "[+] Downloading lombok..."

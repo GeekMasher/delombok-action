@@ -1,3 +1,5 @@
+⚠️ This project has been discontinued, please use [`advanced-security/delombok`](https://github.com/advanced-security/delombok) ⚠️
+
 # delombok-action
 
 This actions runs "delombok" on the source code of the repository in place. Where possibly, the delomboked code removes line breaks to retain the locations of the original source code.
